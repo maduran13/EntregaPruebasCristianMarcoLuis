@@ -6,6 +6,14 @@ if ENV["ADB_DEVICE_ARG"].nil?
     File.write('./.variable.txt', $url_variable)
     puts($url_variable) 
   end
+  
+  Then(/^I click on element having text (.*)$/) do |value|
+    @driver.find_element(:link_text, value).click()
+  end
+ 
+  Then(/^I click on element having xpath (.*)$/) do |value|
+	@driver.find_element(:xpath, value).click()
+  end
 
   Given(/^I navigate to page with the url stored in the variable$/) do
     $url_variable = IO.read("./.variable.txt")  
