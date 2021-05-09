@@ -1,6 +1,25 @@
 # PruebasE2E
 PruebasE2E
 
+## Instrucciones de ejecución:
+### Cypress:
+ - Para ejeuctar las pruebas e2e de cypress se debe copiar el archivo **BaseDatosPrueba/ghost-local.db** y reemplazarlo en el entorno local donde se ejecutará **Ghost**
+ - Dirigirse al folder Cypress/cypress y ejecutar el siguiente comando:
+
+    ```sh
+    cypress open 
+    ```
+- Se abrirá la interface de cypress y se podran ejecutar de forma independiente las funcionalidades de cada ing automatizador por **/integrations/{{archivo}}/spec.js**
+
+### Kraken
+- Para ejecutar las pruebas e2e de Kraken se debe dirigit al path: **Kraken/KrakenMobile-1.0.9/proyecto5/features/** allí se encuentran los archivos .feature donde se automatizan los escenarios de prueba.
+- Ejecutar el siguiente comando:
+    ```sh
+    bundle exec krkaen-mobile run 
+    ```
+    
+### Escenarios de pruebas por funcionalidad:
+
 <table>
 <tbody>
 <tr>
