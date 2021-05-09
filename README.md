@@ -4,6 +4,9 @@ PruebasE2E
 <table>
 <tbody>
 <tr>
+	Integraciones
+</tr>
+<tr>
 <td><strong>Escenario</strong>&nbsp;</td>
 <td><strong>Archivo Cypress</strong>&nbsp;</td>
 <td><strong>Archivo Kraken</strong>&nbsp;</td>
