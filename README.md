@@ -66,13 +66,13 @@ PruebasE2E
 <td>Modificar un Tag &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> it('Update Tag')  &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> edit_tag.feature &nbsp;</td>
-<td>Consiste en modificar una tag existente en Ghost. &nbsp;</td>
+<td>Consiste crear y posteriormente modificar el tag existente en Ghost. &nbsp;</td>
 </tr>
 <tr>
 <td>Eliminar un Tag &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >>  it('Delete Tag') &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> delete_tag.feature &nbsp;</td>
-<td>Consiste eliminar un tag existente en Ghost &nbsp;</td>
+<td>Consiste en crear y posteriormente eliminar el tag existente en Ghost &nbsp;</td>
 </tr>
 <tr>
 <td>Crear Tag Interno &nbsp;</td>
@@ -81,4 +81,39 @@ PruebasE2E
 <td>Consiste en crear un tag interno en Ghost para hacer uso en los post o pages &nbsp;</td>
 </tr>
 </tbody></table>
+
+<table>
+<tbody>
+<tr>
+	Posts
+</tr>
+<tr>
+<td><strong>Escenario</strong>&nbsp;</td>
+<td><strong>Archivo Cypress</strong>&nbsp;</td>
+<td><strong>Archivo Kraken</strong>&nbsp;</td>
+<td><strong>Explicación</strong>&nbsp;</td>
+</tr>
+<tr>
+<td>Crear Post &nbsp;</td>
+<td>... &nbsp;</td>
+<td>... &nbsp;</td>
+<td>... &nbsp;</td>
+</tr>
+<tr>
+<td>Modificar Post &nbsp;</td>
+<td>... &nbsp;</td>
+<td>... &nbsp;</td>
+<td>... &nbsp;</td>
+</tr>
+<tr>
+<tr>
+<td>Eliminar Post &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> it('Delete a Post') &nbsp;</td>
+<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> eliminar_post.feature</td>
+<td>Consiste crear un post y posteriormente eliminararlo en Ghost</td>
+</tr>
+<tr>
+</tbody></table>
+
+
 
