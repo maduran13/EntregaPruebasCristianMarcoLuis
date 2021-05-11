@@ -82,25 +82,25 @@
 </tr>
 <tr>
 <td>Crear Tag &nbsp;</td>
-<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> it('Create Tag') &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create Tag') &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> create_integration.feature &nbsp;</td>
 <td>Consiste en crear una Tag en Ghost para hacer uso en los post o pages. &nbsp;</td>
 </tr>
 <tr>
 <td>Modificar un Tag &nbsp;</td>
-<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> it('Update Tag')  &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Update Tag')  &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> edit_tag.feature &nbsp;</td>
 <td>Consiste crear y posteriormente modificar el tag existente en Ghost. &nbsp;</td>
 </tr>
 <tr>
 <td>Eliminar un Tag &nbsp;</td>
-<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >>  it('Delete Tag') &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >>  describe('Delete Tag') &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> delete_tag.feature &nbsp;</td>
 <td>Consiste en crear y posteriormente eliminar el tag existente en Ghost &nbsp;</td>
 </tr>
 <tr>
 <td>Crear Tag Interno &nbsp;</td>
-<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> it('Create Internal Tag') &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create Internal Tag') &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> create_internal_tag.feature &nbsp;</td>
 <td>Consiste en crear un tag interno en Ghost para hacer uso en los post o pages &nbsp;</td>
 </tr>
@@ -168,6 +168,66 @@
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('borrar miembro') &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> zeliminar_miembro.feature</td>
 <td>Se autentica luego crea un miembro y posteriormente lo elimina. </td>
+</tr>
+<tr>
+</tbody></table>
+
+<table>
+<tbody>
+<tr>
+	Pages
+</tr>
+<tr>
+<td><strong>Escenario</strong>&nbsp;</td>
+<td><strong>Archivo Cypress</strong>&nbsp;</td>
+<td><strong>Archivo Kraken</strong>&nbsp;</td>
+<td><strong>Explicación</strong>&nbsp;</td>
+</tr>
+<tr>
+<td>Crear Página &nbsp;</td>
+<td> Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create Page) &nbsp;</td>
+<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... &nbsp;</td>
+<td> Consisnte en crear una página para el blog. &nbsp;</td>
+</tr>
+<tr>
+<td>Editar Página &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >>  describe('Update Page) &nbsp;</td>
+<td>.Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... &nbsp;</td>
+<td> Consisnte en crear una página y realziarle una modificación &nbsp;</td>
+</tr>
+<tr>
+<tr>
+<td>Eliminar Página &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('Delete miembro') &nbsp;</td>
+<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> .... </td>
+<td>Consiste en crear una página y posteriormente eliminarla. </td>
+</tr>
+<tr>
+</tbody></table>
+
+
+<table>
+<tbody>
+<tr>
+	Schedule Post
+</tr>
+<tr>
+<td><strong>Escenario</strong>&nbsp;</td>
+<td><strong>Archivo Cypress</strong>&nbsp;</td>
+<td><strong>Archivo Kraken</strong>&nbsp;</td>
+<td><strong>Explicación</strong>&nbsp;</td>
+</tr>
+<tr>
+<td>Programar Post &nbsp;</td>
+<td> Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create a Schedule Post) &nbsp;</td>
+<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ....... &nbsp;</td>
+<td> Consinte en crear un post de forma programada para su publicación &nbsp;</td>
+</tr>
+<tr>
+<td>Modificar Programación de un Post &nbsp;</td>
+<td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('Update a Schedule Post') &nbsp;</td>
+<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... </td>
+<td>Consinte en hacer la modificación de de fecha de programación de un post existente para su publciación </td>
 </tr>
 <tr>
 </tbody></table>
