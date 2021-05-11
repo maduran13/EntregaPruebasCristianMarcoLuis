@@ -136,7 +136,9 @@ PruebasE2E
 <tr>
 </tbody></table>
 
-
+<table>
+<tbody>
+<tr>
 	Members
 </tr>
 <tr>
@@ -162,7 +164,7 @@ PruebasE2E
 <td>Eliminar Miembro &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('borrar miembro') &nbsp;</td>
 <td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> zeliminar_miembro.feature</td>
-<td>Consiste crear un miembro y posteriormente eliminararlo </td>
+<td>Se autentica luego crea un miembro y posteriormente lo elimina. </td>
 </tr>
 <tr>
 </tbody></table>
