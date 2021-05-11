@@ -20,7 +20,7 @@
 - Para ejecutar las pruebas e2e de Kraken se debe dirigit al path: **Kraken/KrakenMobile-1.0.9/proyecto5/features/** allí se encuentran los archivos .feature donde se automatizan los escenarios de prueba.
 - Ejecutar el siguiente comando:
     ```sh
-    bundle exec krkaen-mobile run 
+    bundle exec kraken-mobile run 
     ```
     
 ### Escenarios de pruebas por funcionalidad:
