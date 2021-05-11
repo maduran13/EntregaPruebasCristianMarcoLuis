@@ -9,7 +9,7 @@
 
 ### Cypress:
  - Para ejeuctar las pruebas e2e de cypress se debe copiar el archivo **BaseDatosPrueba/ghost-local.db** y reemplazarlo en el entorno local donde se ejecutará **Ghost**. Es decir, la carpeta **Content/Data/**
- - Dirigirse al folder Cypress/cypress y ejecutar el siguiente comando:
+ - Dirigirse al folder /Cypress y ejecutar el siguiente comando:
 
     ```sh
     cypress open 
