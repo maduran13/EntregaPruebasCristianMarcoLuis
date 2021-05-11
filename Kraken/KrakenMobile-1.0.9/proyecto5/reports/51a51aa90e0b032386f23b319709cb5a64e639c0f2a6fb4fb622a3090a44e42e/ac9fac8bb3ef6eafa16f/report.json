@@ -1,0 +1,359 @@
+[
+  {
+    "uri": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/proyecto5/./features/add_webhook.feature",
+    "id": "integrations-ghost",
+    "keyword": "Feature",
+    "name": "Integrations Ghost",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "integrations-ghost;as-a-user-i-want-to-create-a-webhook-in-custom-integration-in-ghost",
+        "keyword": "Scenario",
+        "name": "As a user I want to create a webhook in custom integration in ghost",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 849900
+            }
+          },
+          {
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029213000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I navigate to page \"http://localhost:2368/ghost\"",
+            "line": 5,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:11"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=90.0.4430.93) (Selenium::WebDriver::Error::UnknownError)\nBacktrace:\n\tOrdinal0 [0x00EEC013+2474003]\n\tOrdinal0 [0x00E829C1+2042305]\n\tOrdinal0 [0x00D92F68+1060712]\n\tOrdinal0 [0x00D86214+1008148]\n\tOrdinal0 [0x00D856E3+1005283]\n\tOrdinal0 [0x00D84258+1000024]\n\tOrdinal0 [0x00D848F7+1001719]\n\tOrdinal0 [0x00D8FA65+1047141]\n\tOrdinal0 [0x00D85F09+1007369]\n\tOrdinal0 [0x00D85C6F+1006703]\n\tOrdinal0 [0x00D84258+1000024]\n\tOrdinal0 [0x00D848F7+1001719]\n\tOrdinal0 [0x00D8E76C+1042284]\n\tOrdinal0 [0x00D98AD0+1084112]\n\tOrdinal0 [0x00DE5783+1398659]\n\tOrdinal0 [0x00DD66DB+1337051]\n\tOrdinal0 [0x00DB3427+1192999]\n\tOrdinal0 [0x00DB42EE+1196782]\n\tOrdinal0 [0x00DB4279+1196665]\n\tGetHandleVerifier [0x010796FC+1590332]\n\tGetHandleVerifier [0x01128614+2306900]\n\tGetHandleVerifier [0x00F79E93+543699]\n\tGetHandleVerifier [0x00F792CE+540686]\n\tOrdinal0 [0x00E886BA+2066106]\n\tOrdinal0 [0x00E8D1C8+2085320]\n\tOrdinal0 [0x00E8D308+2085640]\n\tOrdinal0 [0x00E967F3+2123763]\n\tBaseThreadInitThunk [0x76EAFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C47A4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C47A1E+238]\nC:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:15:in `/^I navigate to page \"([^\\\"]*)\"$/'\n././features/add_webhook.feature:5:in `Given I navigate to page \"http://localhost:2368/ghost\"'",
+              "duration": 7440771600
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"ghost-author@example.com\" into input field having css selector \"input[name='identification']\"",
+            "line": 6,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"Pruebas10automatizadas\" into input field having css selector \"input[name='password']\"",
+            "line": 7,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having id \"ember12\"",
+            "line": 8,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see text \"Dashboard\"",
+            "line": 9,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:46"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having text Integrations",
+            "line": 10,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:10"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having xpath /html/body/div[2]/div/main/section/section[2]/div[1]/div/a/article",
+            "line": 11,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having text Add webhook",
+            "line": 12,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:10"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"Webhook Kraken\" into input field having id \"webhook-name\"",
+            "line": 13,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:19"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having id \"webhook-event\"",
+            "line": 14,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having xpath /html/body/div[4]/div/div/div/div/div[2]/section/div[1]/fieldset[2]/div/span/select/optgroup[2]/option[3]",
+            "line": 15,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"http://unofficialkraken.com\" into input field having id \"webhook-targetUrl\"",
+            "line": 16,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:19"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having xpath /html/body/div[4]/div/div/div/div/div[2]/section/div[2]/button[2]",
+            "line": 17,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see text \"Not triggered\"",
+            "line": 18,
+            "match": {
+              "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:46"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/Users/Pc/Desktop/Master/C2/Pruebas_Automatizadas/s6/PruebasE2E/Kraken/KrakenMobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1419400
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
