@@ -186,20 +186,20 @@
 <tr>
 <td>Crear Página &nbsp;</td>
 <td> Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create Page) &nbsp;</td>
-<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... &nbsp;</td>
+<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> crear_page.feature &nbsp;</td>
 <td> Consisnte en crear una página para el blog. &nbsp;</td>
 </tr>
 <tr>
 <td>Editar Página &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >>  describe('Update Page) &nbsp;</td>
-<td>.Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... &nbsp;</td>
-<td> Consisnte en crear una página y realziarle una modificación &nbsp;</td>
+<td>.Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >>modificar_page.feature &nbsp;</td>
+<td> Consiste en crear una página y realizarle una modificación &nbsp;</td>
 </tr>
 <tr>
 <tr>
 <td>Eliminar Página &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('Delete miembro') &nbsp;</td>
-<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> .... </td>
+<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> eliminar_page.feature </td>
 <td>Consiste en crear una página y posteriormente eliminarla. </td>
 </tr>
 <tr>
