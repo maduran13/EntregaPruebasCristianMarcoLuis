@@ -1,5 +1,8 @@
 # PruebasE2E
-PruebasE2E
+
+**Wiki Info**:
+
+[Cuadro de pros/contras de herramientas de automatización E2E Usados](https://github.com/maduran13/PruebasE2E/wiki)
 
 ## Instrucciones de ejecución:
 
