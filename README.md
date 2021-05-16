@@ -4,6 +4,8 @@
 
 [Cuadro de pros/contras de herramientas de automatización E2E Usados](https://github.com/maduran13/PruebasE2E/wiki)
 
+[Cuadro de pros/contras de herramientas de regresión visual](https://github.com/maduran13/PruebasE2E/wiki/Herramientas-de-VRT)
+
 ## Instrucciones de ejecución:
 
 
