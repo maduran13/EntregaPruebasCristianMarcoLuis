@@ -220,13 +220,13 @@
 <tr>
 <td>Programar Post &nbsp;</td>
 <td> Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create a Schedule Post) &nbsp;</td>
-<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ....... &nbsp;</td>
+<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> post_programado.feature &nbsp;</td>
 <td> Consinte en crear un post de forma programada para su publicación &nbsp;</td>
 </tr>
 <tr>
 <td>Modificar Programación de un Post &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('Update a Schedule Post') &nbsp;</td>
-<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... </td>
+<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> editar_post_programado.feature </td>
 <td>Consinte en hacer la modificación de de fecha de programación de un post existente para su publciación </td>
 </tr>
 <tr>
