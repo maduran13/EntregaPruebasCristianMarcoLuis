@@ -20,7 +20,7 @@
 - Para ejecutar las pruebas e2e de Kraken se debe dirigit al path: **Kraken/KrakenMobile-1.0.9/proyecto5/features/** allí se encuentran los archivos .feature donde se automatizan los escenarios de prueba.
 - Ejecutar el siguiente comando:
     ```sh
-    bundle exec krkaen-mobile run 
+    bundle exec kraken-mobile run 
     ```
     
 ### Escenarios de pruebas por funcionalidad:
@@ -186,20 +186,20 @@
 <tr>
 <td>Crear Página &nbsp;</td>
 <td> Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create Page) &nbsp;</td>
-<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... &nbsp;</td>
+<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> crear_page.feature &nbsp;</td>
 <td> Consisnte en crear una página para el blog. &nbsp;</td>
 </tr>
 <tr>
 <td>Editar Página &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >>  describe('Update Page) &nbsp;</td>
-<td>.Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... &nbsp;</td>
-<td> Consisnte en crear una página y realziarle una modificación &nbsp;</td>
+<td>.Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >>modificar_page.feature &nbsp;</td>
+<td> Consiste en crear una página y realizarle una modificación &nbsp;</td>
 </tr>
 <tr>
 <tr>
 <td>Eliminar Página &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('Delete miembro') &nbsp;</td>
-<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> .... </td>
+<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> eliminar_page.feature </td>
 <td>Consiste en crear una página y posteriormente eliminarla. </td>
 </tr>
 <tr>
@@ -220,13 +220,13 @@
 <tr>
 <td>Programar Post &nbsp;</td>
 <td> Cypress >> cypress >> integration >> escenariosluis.spec.ts >> describe('Create a Schedule Post) &nbsp;</td>
-<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ....... &nbsp;</td>
+<td> Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> post_programado.feature &nbsp;</td>
 <td> Consinte en crear un post de forma programada para su publicación &nbsp;</td>
 </tr>
 <tr>
 <td>Modificar Programación de un Post &nbsp;</td>
 <td>Cypress >> cypress >> integration >> escenarioscristian.spec.ts >> describe('Update a Schedule Post') &nbsp;</td>
-<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> ...... </td>
+<td>Kraken >> KrakenMobile-1.0.9 >> proyecto5 >> features >> editar_post_programado.feature </td>
 <td>Consinte en hacer la modificación de de fecha de programación de un post existente para su publciación </td>
 </tr>
 <tr>
