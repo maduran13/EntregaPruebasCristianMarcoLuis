@@ -1,0 +1,37 @@
+{
+    "url":"http://localhost:2638",
+    "browsers":["chromium", "webkit", "firefox"],
+    "scenarios" : [
+        {"name":"create_internal_tag","takes":6},
+        {"name":"create_page","takes":7},
+        {"name":"create_schedule_post","takes":12},
+        {"name":"create_tag","takes":6},
+        {"name":"delete_page","takes":12},
+        {"name":"delete_post","takes":12},
+        {"name":"delete_tag","takes":10},
+        {"name":"update_page","takes":8},
+        {"name":"update_schedule_post","takes":14},
+        {"name":"update_tag","takes":11}
+    ],
+    "versionGhost1":"3.42.5",
+    "versionGhost2":"4.4.0",
+    "fileSpecVersionGhost1":"escenariosluis_3_42.spec.js",
+    "fileSpecVersionGhost2":"escenariosluis_4_4.spec.js",
+    "options":{
+        "output": {
+            "errorColor": {
+                "red": 255,
+                "green": 0,
+                "blue": 255
+            },
+            "errorType": "movement",
+            "largeImageThreshold": 1200,
+            "useCrossOrigin": false,
+            "outputDiff": true
+        },
+        "scaleToSameSize": true,
+        "ignore": "less"
+    },
+    "viewportHeight":600, 
+    "viewportWidth":800
+}
