@@ -10,8 +10,8 @@ Given I navigate to page "http://localhost:2368/ghost/#/pages"
 Then I click on element having css selector ".gh-posts-list-item" 
 Then I enter "KrakenModifiedPageTest" into input field having css selector "textarea"
 Then I enter "KrakenModifedPageDescription" into input field having css selector ".koenig-editor__editor"
-Then I click on element having css selector ".gh-publishmenu-trigger"
-Then I click on element having css selector ".gh-btn-blue"
+Then I click on element having css selector ".gh-btn"
+Then I click on element having css selector ".gh-btn-black"
 Then I wait for 4 seconds
 Given I navigate to page "http://localhost:2368/ghost/#/pages"
 Then I wait for 4 seconds
