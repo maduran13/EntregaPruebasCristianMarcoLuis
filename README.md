@@ -6,6 +6,9 @@
 
 [Cuadro de pros/contras de herramientas de regresión visual](https://github.com/maduran13/PruebasE2E/wiki/Herramientas-de-VRT)
 
+**Entrega Semana 6**
+- [WIKI Entrega Semana 6 VRT](https://github.com/maduran13/PruebasE2E/wiki/Descripci%C3%B3n-General)
+
 ## Instrucciones de ejecución:
 
 
