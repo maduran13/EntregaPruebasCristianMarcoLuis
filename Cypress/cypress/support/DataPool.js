@@ -1,46 +1,59 @@
 const faker = require("faker");
 
+const label_for_create_tag = faker.lorem.sentence();
+const label_for_create_internal_tag = faker.lorem.sentence();
+const label_for_update_tag = faker.lorem.sentence();
+const label_for_delete_tag = faker.lorem.sentence();
+
+const label_for_create_delete_post = faker.lorem.sentence();
+
+const label_for_create_page = faker.lorem.sentence();
+const label_for_update_page = faker.lorem.sentence();
+const label_for_delete_page = faker.lorem.sentence();
+
+const label_for_schedule_post = faker.lorem.sentence();
+const label_for_reschedule_post = faker.lorem.sentence();
 
 class DataPool {
-	
+
 	getDataForCreateTag() {
-		return faker.lorem.sentence();
+		return label_for_create_tag;
 	}
 
 	getDataForCreateInternalTag() {
-		return faker.lorem.sentence();
+		return label_for_create_internal_tag;
 	}
 	
 	getDataForUpdateTag() {
-		return faker.lorem.sentence();
+		return label_for_update_tag;
 	}
 
 	getDataForDeleteTag() {
-		return faker.lorem.sentence();
+		return label_for_delete_tag;
 	}
 
     getDataForCreateDeletePost() {
-		return faker.lorem.sentence();
+		return label_for_create_delete_post;
 	}
 
 	getDataForCreatePage(){
-		return faker.lorem.sentence();
+		return label_for_create_page;
 	}
 
     getDataForUpdatePage(){
-		return faker.lorem.sentence();
+		return label_for_update_page;
 	}
 	
 	getDataForDeletePage(){
-		return faker.lorem.sentence();
+		return label_for_delete_page;
 	}
 
     getDataForCreateSchedulePost(){
-		return faker.lorem.sentence();
+		return label_for_schedule_post;
 	}
 
     getDataForUpdateSchedulePost(){
-		return faker.lorem.sentence();
+		return label_for_reschedule_post;
 	}
 
 }
