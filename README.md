@@ -21,7 +21,8 @@
 ### RIPuppet:
  - Para ejecutar las pruebas de reconocimiento, ubicarse dentro de la carpeta **RIPuppet/**, ejecutar **npm install** y posteriormente ejecutar node index.js. Los resultados se recopilan en la carpeta dentro de RIPuppet con el nombre **results/**, allí se creará una carpeta con nombre de la fecha y hora de la ejecución, donde recopila en un report.html (ejecutar con un live server) los resultados obtenidos:
 
-    ```node index.js 
+    ```
+    node index.js 
     ```
 
 ### Cypress:
