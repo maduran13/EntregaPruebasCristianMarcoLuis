@@ -13,6 +13,9 @@
 
 - [WIKI Entrega Semana 7 generación de datos](https://github.com/maduran13/PruebasE2E/wiki/S7:-Descripci%C3%B3n-General)
 
+**Entrega Semana 8**
+- [WIKI Entrega Semana 8 EStrategia Final](https://github.com/maduran13/PruebasE2E/wiki/S8:-Descripci%C3%B3n-General)
+
 ## Instrucciones de ejecución:
 
 
